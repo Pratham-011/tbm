@@ -61,7 +61,7 @@ function Footer() {
   {/* <!-- Logo Section --> */}
   <div class="w-full flex lg:justify-between gap-5  items-center flex-col lg:flex-row ">
     <div class="flex gap-5 ">
-      <img class="w-[329px] h-[37px] relative rounded-xl" src="logo_full.png" alt="" srcset="" />
+      <img class="w-[330px] h-[37px] relative rounded-xl" src="logo_full.png" alt="" srcset="" />
     </div>
     {/* <!-- copyright section --> */}
     <div class="flex gap-4">
