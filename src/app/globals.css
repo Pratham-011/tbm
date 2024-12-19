@@ -28,3 +28,9 @@ body::-webkit-scrollbar {
   -webkit-text-stroke: 2px white; /* 2px stroke with black color */
   font-family: sans-serif;
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
