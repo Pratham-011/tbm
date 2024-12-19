@@ -111,7 +111,7 @@ export default function Home() {
 
       <section className="py-28 pb-0 flex flex-col justify-center items-center">
         <div className="rotate-3 transform w-[120vw] ">
-          <Marquee className="py-6 bg-[#cfc9a3] ">
+          <Marquee  className="py-6 bg-[#cfc9a3] ">
             {clients.map((client) => (
               <img
                 src={client.path}
@@ -225,7 +225,7 @@ export default function Home() {
         >
           {UGC.map((slide, index) => (
             <SwiperSlide key={index} className="swiper-slide h-[50vh] lg:h-[80vh]">
-              <div className="relative aspect-[2/3] bg-gray-900 overflow-hidden">
+              <div className="relative aspect-[9/16] bg-gray-900 overflow-hidden">
                 <video
                 autoPlay
                   src={slide.video}
