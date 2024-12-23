@@ -42,7 +42,7 @@ const Navigation = () => {
   ];
 
   return (
-    <div className=" py-5 fixed w-screen flex items-center justify-center z-50">
+    <div className="py-5 fixed w-screen flex items-center justify-center z-[55]">
     <div className="container px-5 relative  mx-auto flex items-center justify-center ">
       <div className='px-3 py-3 max-w-fit  bg-[#000000]/50 rounded-lg backdrop-blur-lg flex justify-between items-center'>
       {/* Left Links */}

@@ -18,6 +18,25 @@ import { motion } from "framer-motion";
 
 function page() {
 
+  const services = [
+    {
+      title: "VIDEO PRODUCTION",
+      description: "High-quality, engaging video content tailored to your brand's needs.",
+      icon: "🎥"
+    },
+    {
+      title: "PAID MEDIA",
+      description: "Strategic paid advertising campaigns to boost your brand's visibility and conversions.",
+      icon: "📊"
+    },
+    {
+      title: "WEBSITE BUILDING",
+      description: "Custom, responsive websites designed to showcase your brand and drive results.",
+      icon: "💻"
+    }
+  ];
+  
+
   const frameworkItems = [
     { letter: "H", description: "Hook: Grab attention fast." },
     { letter: "E", description: "Explain Value early." },
@@ -436,6 +455,26 @@ function page() {
       </div>
     </div>
               
+    </section>
+
+
+
+
+    {/* services section */}
+
+    <section className="container mx-auto px-5 py-20">
+      <h2 className="text-white text-center  text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider mb-12">
+        Our <span className="text-[#f85a23]">Services</span>
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {services.map((service, index) => (
+          <div key={index} className="bg-[#222222] p-6 rounded-lg transition-all duration-300 hover:bg-[#181818] hover:shadow-lg">
+            <div className="text-4xl mb-4">{service.icon}</div>
+            <h3 className="text-white text-xl font-bold mb-2">{service.title}</h3>
+            <p className="text-white/60">{service.description}</p>
+          </div>
+        ))}
+      </div>
     </section>
     
 
