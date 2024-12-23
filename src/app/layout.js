@@ -96,7 +96,7 @@ export default function RootLayout({ children }) {
       {/* <Lenis root> */}
 
       {/* loader start*/}
-      <div className="hidden w-screen h-screen flex items-center justify-center left-0 top-0  z-50">
+      <div className="loader w-screen h-screen flex items-center justify-center left-0 top-0  z-50">
       <svg className="h-24 " viewBox="0 0 817 365" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1.01172 232.863V1.01758H70.3756V78.6316H155.269V142.474H70.3756V232.863C83.075 293.579 141.45 294.297 169.05 287.067V349.619C51.7477 369.066 8.14856 279.885 1.01172 232.863Z" fill="#CFC9A3" stroke="#CFC9A3" class="svg-elem-1"></path>
 <path d="M418 188V347.5H479.5V197.5C479.167 181.167 488.4 147.6 528 144C567.6 140.4 583.5 171.833 586.5 188V347.5H650V189C660 151.5 676 144 711 144C739 144 752.667 174 756 189V347.5H816.5V189C815.3 174.2 808.667 155.833 805.5 148.5C797.333 128.667 767 88.3999 711 85.9997C655 83.5994 625.096 119 617.144 137C601.116 108.259 573.358 83.9687 528 85.9997C447.6 89.5997 421.167 155.5 418 188Z" fill="#CFC9A3" stroke="#CFC9A3" class="svg-elem-2"></path>
