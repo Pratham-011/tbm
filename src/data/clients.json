@@ -16,7 +16,7 @@
     "alt": "Chtr Logo"
   },
   {
-    "path": "logo/DotnKey.png",
+    "path": "logo/DotnKey1.png",
     "alt": "Dot & Key Logo"
   },
   {
@@ -24,11 +24,11 @@
     "alt": "Estuary Logo"
   },
   {
-    "path": "logo/Lakme.png",
+    "path": "logo/Lakme1.png",
     "alt": "Lakme Logo"
   },
   {
-    "path": "logo/Loreal.png",
+    "path": "logo/Loreal1.png",
     "alt": "L'Oréal Logo"
   },
   {
@@ -44,19 +44,15 @@
     "alt": "My11Circle Logo"
   },
   {
-    "path": "logo/My112.png",
-    "alt": "My11Circle Alternate Logo"
-  },
-  {
-    "path": "logo/Neemans.png",
+    "path": "logo/Neemans1.png",
     "alt": "Neemans Logo"
   },
   {
-    "path": "logo/P-tal.svg",
+    "path": "logo/P-tal.png",
     "alt": "P-Tal Logo"
   },
   {
-    "path": "logo/Perforalogo.png",
+    "path": "logo/perfora.webp",
     "alt": "Perfora Logo"
   },
   {
@@ -64,7 +60,18 @@
     "alt": "Schbang Logo"
   },
   {
-    "path": "logo/Single.id.png",
+    "path": "logo/Single1.id.png",
     "alt": "Single.id Logo"
+  },
+
+  {
+    "path": "logo/cultfit.png",
+    "alt": "Cultfit Logo"
+  },
+
+  {
+    "path": "logo/caratlane.png",
+    "alt": "Caratlane Logo"
   }
+
 ]
