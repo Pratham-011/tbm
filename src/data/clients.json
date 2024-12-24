@@ -3,18 +3,7 @@
     "path": "logo/1win.webp",
     "alt": "1Win Logo"
   },
-  {
-    "path": "logo/baccabucci.jpg",
-    "alt": "Bacca Bucci Logo"
-  },
-  {
-    "path": "logo/Bjp.png",
-    "alt": "BJP Logo"
-  },
-  {
-    "path": "logo/Chtr.png",
-    "alt": "Chtr Logo"
-  },
+
   {
     "path": "logo/DotnKey1.png",
     "alt": "Dot & Key Logo"
@@ -55,10 +44,7 @@
     "path": "logo/perfora.webp",
     "alt": "Perfora Logo"
   },
-  {
-    "path": "logo/Schbang.jpg",
-    "alt": "Schbang Logo"
-  },
+ 
   {
     "path": "logo/Single1.id.png",
     "alt": "Single.id Logo"
