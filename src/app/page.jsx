@@ -12,6 +12,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import HorizontalScroll from "@/components/HorizontalScroll";
+
+
+
 const UGC = [
   {
     id: 1,
@@ -75,13 +81,29 @@ const UGC = [
   },
 ];
 
+
+const horizontals = [
+  {
+    title: "FUNNEL ADS THAT ENGAGE AND CONVERT",
+    description: "Leverage attention-grabbing videos at the top of the funnel to spark interest and build awareness. Retarget the same audience with impactful bottom-of-the-funnel UGCs to drive meaningful engagement and maximize conversions.",
+    highlightWords: ["ENGAGE", "CONVERT"]
+  },
+  {
+    title: "HOW WE MAKE A DIFFERENCE",
+    description: "We strategize and craft the perfect ads tailored to every stage of the marketing funnel. Our approach is data-driven and backed by insights. This enables us to optimize performance marketing efforts for maximum impact, resulting in higher conversions and sales.",
+    highlightWords: ["DIFFERENCE"]
+  }
+]
+
+
 export default function Home() {
+
   return (
     <>
       {/* hero section */}
-      <section className="mx-auto flex justify-center items-center ">
+      <section data-scroll-section className="mx-auto flex justify-center items-center ">
         <div className="container z-10 mx-auto px-5 flex flex-col lg:flex-row items-center lg:items-end justify-between h-screen pb-5">
-          <div className="flex-col lg:justify-start h-full lg:h-auto  justify-center lg:items-start inline-flex items-center">
+          <div className="flex-col lg:justify-start  lg:h-auto  justify-center lg:items-start inline-flex items-center">
             <div className="self-stretch text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
               <span>Where True </span>
               <span className="text-[#f85a23] ">Creativity </span>
@@ -178,8 +200,7 @@ export default function Home() {
       </section>
 
       {/* clients marquee */}
-
-      <section className="py-28 pb-0 flex flex-col justify-center items-center" >
+      <section data-scroll-section className="py-28 pb-0 flex flex-col justify-center items-center" >
         <div className="rotate-3 transform w-[120vw] ">
           <Marquee className="py-6 bg-[#cfc9a3] "
             >
@@ -211,7 +232,7 @@ export default function Home() {
       </section>
 
       {/* how we make a difference */}
-      <section className="container mx-auto px-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between h-screen pb-5 gap-5">
+      <section data-scroll-section className="container mx-auto px-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between h-screen pb-5 gap-5">
         <div className="w-full text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
           <span>how we make a </span>
           <span className="text-[#f85a23] ">difference</span>
@@ -313,6 +334,15 @@ export default function Home() {
         </div>
       </section>
 
+
+
+      <HorizontalScroll />
+ 
+
+   
+
+
+            
       <Footer />
     </>
   );

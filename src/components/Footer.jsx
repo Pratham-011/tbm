@@ -5,7 +5,7 @@ import { Facebook, Instagram, Linkedin, LinkedinIcon, Twitter, TwitterIcon, Yout
 function Footer() {
   return (
     // yaha se justify center wala remove kiya hai 
-    <section className="container mx-auto px-5 flex flex-col   h-screen pb-5"> 
+    <section className="container mx-auto px-5 flex flex-col   h-screen pb-5" data-scroll-section> 
       
    <div className="flex flex-col items-center justify-center h-full gap-5">
    <div className="w-full text-center text-xs  text-white/60 lg:text-lg font-normal tracking-wider">

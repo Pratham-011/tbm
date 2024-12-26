@@ -93,6 +93,19 @@ svg .svg-elem-3 {
   pointer-events:none;
 }
 
+
+html, body {
+  overscroll-behavior: none;
+}
+
+.horizontal-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* loader end */
 
 @layer base {
