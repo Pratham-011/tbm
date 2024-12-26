@@ -26,7 +26,7 @@ const UGC = [
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/UGC%20Video.mp4",
     thumbnail: "./assets/Estuary/UGC-Thumbnail.jpg",
     name: "HIGH END UGC",
-    logo: "	/assets/logo/Estuary.webp",
+    logo: "	/logo/Estuary.webp",
     brand: "ESTUARY",
   },
   {
@@ -36,7 +36,7 @@ const UGC = [
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20Page%20Perfora%20UGC%20.mp4",
     thumbnail: "./assets/Perfora/2.png",
     name: "PHONE SHOT UGC",
-    logo: "./assets//logo/Perforalogo.png",
+    logo: "logo/Perforalogo.png",
     brand: "PERFORA",
   },
   {
@@ -46,7 +46,7 @@ const UGC = [
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20P-Tal%20Brass%20Patila%20Hook%202%20.mp4",
     thumbnail: "./assets/P-TAL/UGC-Thumbnail.jpg",
     name: "CAMERA SHOT UGC",
-    logo: "/assets/logo/P-tal.svg",
+    logo: "logo/P-tal.png",
     brand: "P-TAL",
   },
   {
@@ -56,7 +56,7 @@ const UGC = [
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Mangalam%20Giant%20Cone%20Hook%201.MP4",
     thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
     name: "PHONE SHOT UGC",
-    logo: "/assets/logo/Mangalam.png",
+    logo: "logo/Mangalam1.webp",
     brand: "MANGALAM",
   },
   {
@@ -66,7 +66,7 @@ const UGC = [
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20Fighting%20(1080X1920).mp4",
     thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
     name: "PHONE SHOT UGC",
-    logo: "/assets/logo/My112.png",
+    logo: "logo/My112.png",
     brand: "My11Circle",
   },
   {
@@ -76,7 +76,7 @@ const UGC = [
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Home%20Combo%20offer.mp4",
     thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
     name: "PHONE SHOT UGC",
-    logo: "/assets/logo/My112.png",
+    logo: "logo/My112.png",
     brand: "MANGALAM",
   },
 ];
@@ -290,6 +290,7 @@ export default function Home() {
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
+          
             modules={[EffectCoverflow, Autoplay, Navigation]}
             className="w-full"
             breakpoints={{
@@ -324,7 +325,7 @@ export default function Home() {
                       {slide.name}
                     </div>
                     <h2 className="text-white text-xl font-bold">
-                      <img className="h-8 relative" src={slide.logo} />
+                      <img className="h-10 relative" src={slide.logo} />
                     </h2>
                   </div>
                 </div>
