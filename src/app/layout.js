@@ -76,13 +76,13 @@ export default function RootLayout({ children }) {
       .to(".loader", {
         delay:2,
         opacity: 1,
-        className: "loader w-screen h-screen flex items-center justify-center left-0 top-0  z-50",
+        className: "loader fixed w-screen h-screen flex items-center justify-center left-0 top-0  z-50",
         duration: 1, // Second animation state
       })
       .to(".loader", {
         delay:2,
         opacity: 0,
-        className: "loader w-screen h-screen flex items-center justify-center left-0 top-0  z-50",
+        className: "loader fixed w-screen h-screen flex items-center justify-center left-0 top-0  z-50",
         duration: 1, // Second animation state
       })
     

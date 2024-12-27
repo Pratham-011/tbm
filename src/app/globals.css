@@ -96,6 +96,7 @@ svg .svg-elem-3 {
 
 html, body {
   overscroll-behavior: none;
+  color:white;
 }
 
 .horizontal-section {
