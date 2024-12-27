@@ -34,7 +34,7 @@ const HorizontalScroll = () => {
   }, [])
 
   return (
-    <div ref={triggerRef} className="overflow-hidden h-[500vw]" data-scroll-section data-scroll-speed="1" >
+    <div ref={triggerRef} className="overflow-hidden h-[calc(100vh+400vw)]" data-scroll-section data-scroll-speed="1" >
       <div ref={sectionRef} className="flex" >
         {[...Array(5)].map((_, index) => (
           <div key={index} className="shrink-0 w-screen h-[100vh] items-center flex ">

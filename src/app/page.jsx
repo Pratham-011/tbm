@@ -101,8 +101,8 @@ export default function Home() {
   return (
     <>
       {/* hero section */}
-      <section data-scroll-section className="mx-auto flex justify-center items-center ">
-        <div className="container z-10 mx-auto px-5 flex flex-col lg:flex-row items-center lg:items-end justify-between h-screen pb-5">
+      <section data-scroll-section className="mx-auto w-screen flex justify-center items-center ">
+        <div className="container z-10 mx-auto px-5 w-full flex flex-col lg:flex-row items-center lg:items-end justify-between h-screen pb-5">
           <div className="flex-col lg:justify-start  lg:h-auto  justify-center lg:items-start inline-flex items-center">
             <div className="self-stretch text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
               <span>Where True </span>
