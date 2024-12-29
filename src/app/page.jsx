@@ -1,20 +1,27 @@
 "use client";
 import Footer from "@/components/Footer";
 import Marquee from "react-fast-marquee";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import clients from "@/data/clients.json";
-import { useEffect, useState, useRef } from "react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
-
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import HorizontalScroll from "@/components/HorizontalScroll";
+
+
+import BackgroundVideo from 'next-video/background-video';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import MediaThemeInstaplay from 'player.style/instaplay/react';
 
 
 
@@ -99,7 +106,7 @@ const horizontals = [
 export default function Home() {
 
   return (
-    <>
+    <main >
       {/* hero section */}
       <section data-scroll-section className="mx-auto w-screen flex justify-center items-center ">
         <div className="container z-10 mx-auto px-5 w-full flex flex-col lg:flex-row items-center lg:items-end justify-between h-screen pb-5">
@@ -311,15 +318,41 @@ export default function Home() {
             {UGC.map((slide, index) => (
               <SwiperSlide key={index} className="swiper-slide">
                 <div className="relative aspect-[9/16] overflow-hidden">
-                  <video
+                <Dialog>
+                <DialogTrigger>
+                  <BackgroundVideo
                     autoPlay
                     src={slide.video}
                     className="absolute inset-0 w-full  object-cover"
                     loop
                     muted
                     playsInline
-                    preload="metadata"
+                    crossOrigin                    
+
                   />
+
+</DialogTrigger>
+<DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
+<MediaThemeInstaplay
+        style={{ "--media-accent-color": "#f85a23" }}
+      >           <video         
+                    src={slide.video}
+                    slot="media"
+                    className="w-full h-screen object-contain"
+
+                    // className="h-[600px]"
+                    playsInline
+                    preload="metadata"
+                    crossOrigin
+                    // theme={Instaplay}
+                    
+
+                  />
+                        </MediaThemeInstaplay>
+
+  </DialogContent>
+
+</Dialog>
                   <div className="absolute flex gap-5 flex-col  bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/90 to-transparent -mb-1">
                     <div className="text-[#f85a23] text-lg font-bold uppercase tracking-wider ">
                       {slide.name}
@@ -345,6 +378,6 @@ export default function Home() {
 
             
       <Footer />
-    </>
+    </main>
   );
 }
