@@ -110,7 +110,7 @@ export default function Home() {
       {/* hero section */}
       <section data-scroll-section className="mx-auto w-screen flex justify-center items-center ">
         <div className="container z-10 mx-auto px-5 w-full flex flex-col lg:flex-row items-center lg:items-end justify-between h-screen pb-5">
-          <div className="flex-col lg:justify-start  lg:h-auto  justify-center lg:items-start inline-flex items-center">
+          <div className="flex-col lg:justify-start  h-full lg:h-auto  justify-center lg:items-start inline-flex items-center">
             <div className="self-stretch text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
               <span>Where True </span>
               <span className="text-[#f85a23] ">Creativity </span>
@@ -267,7 +267,7 @@ export default function Home() {
 
       {/* UGC video */}
 
-      <section className="flex flex-col" data-scroll-section>
+      <section className="flex flex-col pb-40" data-scroll-section>
         <Marquee className="py-6 ">
           {clients.map((client) => (
             <div className="self-stretch text-stroke text-white text-center text-3xl lg:text-6xl  xl:text-7xl 2xl:text-8xl text-stroke font-bold uppercase tracking-wider px-4">
