@@ -170,7 +170,7 @@ export default function Home() {
                   <img
               src='/HeroImages/hero_2_2.png'
               alt={"tbm showcase"}
-              className=""
+              className="hidden md:block"
             />
              <BackgroundVideo
                     autoPlay
@@ -187,7 +187,7 @@ export default function Home() {
                       <img
               src='/HeroImages/hero_2_3.png'
               alt={"tbm showcase"}
-              className=""
+              className="hidden md:block"
             />
             
 
@@ -195,7 +195,7 @@ export default function Home() {
         
               src='/HeroImages/hero_2_1.png'
               alt={"tbm showcase"}
-              className=""
+              className="hidden md:block"
             />
           
           </div>
