@@ -161,35 +161,22 @@ export default function Home() {
               alt={"tbm showcase"}
               className=""
             />
-          {/* <img
+          <img
         
               src='/HeroImages/hero_2_1.png'
               alt={"tbm showcase"}
               className=""
-            /> */}
-                  <img
+            />
+                      <img
               src='/HeroImages/hero_2_2.png'
               alt={"tbm showcase"}
               className=""
             />
-             <BackgroundVideo
-                    autoPlay
-                    src="https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20HOME%20Ad%20film%20Video.mp4"
-                    className="absolute inset-0 w-full  object-cover"
-                    loop
-                    muted
-                    playsInline
-                    crossOrigin                    
-
-                  />
-            
-                
                       <img
               src='/HeroImages/hero_2_3.png'
               alt={"tbm showcase"}
               className=""
             />
-            
 
                <img
         
