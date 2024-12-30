@@ -69,7 +69,7 @@ export default function WorksSection() {
 <Dialog>
                 <DialogTrigger>
                 <div>
-                  <img src="/thumbnail/2.png" alt="" />
+                  <img src={work.thumbnail  } alt="" />
                 </div>
                    <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <span className="text-white text-sm md:text-base font-semibold">{work.name}</span>
