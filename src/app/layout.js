@@ -95,6 +95,7 @@ export default function RootLayout({ children }) {
       <Head>
       <link rel="icon" type="image/png" href="http://localhost:3000/logo.png" />
       <link rel="icon" type="image/png" href="https://truebridgemedia.com/logo.png" />
+      <link rel="shortcut icon" href="/favicon.ico" />
 
       </Head>
       <body className={inter.className}>
