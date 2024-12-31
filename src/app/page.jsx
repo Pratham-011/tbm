@@ -180,7 +180,7 @@ export default function Home() {
                     muted
                     playsInline
                     crossOrigin                    
-
+                    preload
                   />
             
                 
