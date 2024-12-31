@@ -174,12 +174,13 @@ export default function Home() {
             />
              <BackgroundVideo
                     autoPlay
-                    src="/hero.webm"
+                    src="/hero.mp4?thumbnailTime=1"
                     className="absolute inset-0 w-full  object-cover"
                     loop
                     muted
                     playsInline
-                    crossOrigin                    
+                    crossOrigin
+
                     preload
                   />
             
