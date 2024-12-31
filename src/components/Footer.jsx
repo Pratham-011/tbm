@@ -1,5 +1,6 @@
 import React from 'react'
 import { Facebook, Instagram, Linkedin, LinkedinIcon, Twitter, TwitterIcon, Youtube,  } from 'lucide-react'
+import Link  from 'next/link';
 
 
 function Footer() {
@@ -28,22 +29,22 @@ function Footer() {
       </div>
    </div>
 {/* <div></div> */}
-<div class="flex flex-col lg:flex-row items-center justify-center  py-5">
+<div className="flex flex-col lg:flex-row items-center justify-center  py-5">
   {/* <!-- Navigation Links Section --> */}
-  <div class="w-full flex lg:justify-between gap-5  items-center flex-col lg:flex-row ">
-    <div class="flex gap-5">
-      <span class="text-[#cfc9a3] text-xs font-medium uppercase">Home</span>
-      <span class="text-[#cfc9a3] text-xs font-medium uppercase">About</span>
-      <span class="text-[#cfc9a3] text-xs font-medium uppercase">Work</span>
-      <span class="text-[#cfc9a3] text-xs font-medium uppercase">Blog</span>
-      <span class="text-[#cfc9a3] text-xs font-medium uppercase">Contact</span>
+  <div className="w-full flex lg:justify-between gap-5  items-center flex-col lg:flex-row ">
+    <div className="flex gap-5">
+      <Link href="/" className="text-[#cfc9a3] text-xs font-medium uppercase">Home</Link>
+      <Link href="/about" className="text-[#cfc9a3] text-xs font-medium uppercase">About</Link>
+      <Link href="/work" className="text-[#cfc9a3] text-xs font-medium uppercase">Work</Link>
+      <Link href="/blog" className="text-[#cfc9a3] text-xs font-medium uppercase">Blog</Link>
+      <Link href="/contact" className="text-[#cfc9a3] text-xs font-medium uppercase">Contact</Link>
     </div>
     {/* <!-- Social Media Icons --> */}
-    <div class="flex gap-4">
-  {/* <div class="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Facebook /></div> */}
-  <div class="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Instagram /></div>
-  <div class="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><LinkedinIcon /></div>
-  <div class="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Youtube /></div>
+    <div className="flex gap-4">
+  {/* <div className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Facebook /></div> */}
+  <a href="https://www.instagram.com/truebridge.media/" target='_blank' t className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Instagram /></a>
+  <a href="https://www.linkedin.com/company/truebridgemedia/" target='_blank' className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><LinkedinIcon /></a>
+  <a href="https://www.instagram.com/truebridge.media/" target='_blank' className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Youtube /></a>
 </div>
 
 
@@ -57,15 +58,15 @@ function Footer() {
 <hr className="w-full border-t border-[#cfc9a3]" />
 
 
-   <div class="flex flex-col lg:flex-row items-center justify-center  py-5">
+   <div className="flex flex-col lg:flex-row items-center justify-center  py-5">
   {/* <!-- Logo Section --> */}
-  <div class="w-full flex lg:justify-between gap-5  items-center flex-col lg:flex-row ">
-    <div class="flex gap-5 ">
-      <img class="h-[40px] relative " src="logo_full.png" alt="" srcset="" />
+  <div className="w-full flex lg:justify-between gap-5  items-center flex-col lg:flex-row ">
+    <div className="flex gap-5 ">
+      <img className="h-[40px] relative " src="logo_full.png" alt="" srcset="" />
     </div>
     {/* <!-- copyright section --> */}
-    <div class="flex gap-4">
-    <span class="text-[#cfc9a3] text-xs font-medium uppercase">© 2024 True Bridge Media, ALL RIGHTS RESERVED</span>
+    <div className="flex gap-4">
+    <span className="text-[#cfc9a3] text-xs font-medium uppercase">© 2024 True Bridge Media, ALL RIGHTS RESERVED</span>
 
 </div>
 

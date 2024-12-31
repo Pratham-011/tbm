@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import gsap from 'gsap';
 import { Lenis } from '@studio-freight/react-lenis';
 import { useEffect, useRef } from 'react'
+import Head from 'next/head';
 
 import LocomotiveScroll from 'locomotive-scroll'
 import 'locomotive-scroll/dist/locomotive-scroll.css'
@@ -91,6 +92,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <Head>
+      <link rel="icon" type="image/png" href="http://localhost:3000/logo.png" />
+      <link rel="icon" type="image/png" href="https://truebridgemedia.com/logo.png" />
+
+      </Head>
       <body className={inter.className}>
       <Navigation/>
       {/* <Lenis root> */}
