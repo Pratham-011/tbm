@@ -17,7 +17,7 @@ function Footer() {
         
       </div>
 
-      <div className="w-full text-white text-center text-2xl  lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold lowercase tracking-wider">
+      <div className="w-full text-white text-center text-xl md:text-2xl  lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold lowercase tracking-wider">
         <span>
         hello@
         </span>
