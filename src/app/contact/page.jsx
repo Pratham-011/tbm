@@ -27,10 +27,21 @@ export default function ContactPage() {
           (response) => {
             console.log("Email sent successfully", response)
             setSuccess(true)
+            formRef.current.reset() // Clear the form fields
+
+            // Reset the success message after 5 seconds
+            setTimeout(() => {
+              setSuccess(false)
+            }, 5000)
           },
           (err) => {
             console.error("EmailJS error:", err)
             setError(err.text || "Something went wrong. Please try again later.")
+
+            // Reset the error message after 5 seconds
+            setTimeout(() => {
+              setError(null)
+            }, 5000)
           }
         )
     }
@@ -111,4 +122,3 @@ export default function ContactPage() {
     </>
   )
 }
-
