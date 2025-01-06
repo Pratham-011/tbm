@@ -45,7 +45,7 @@ const UGC = [
   },
   {
     id: 3,
-    // video: "./assets/P-TAL/HOMEP-TalBrassPatilaHook2.mp4",
+    
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/SnapSave.io-Meet%20Darshil%20Shah%20from%20%40chtrsocial%20share%20the%20virality%20concept%20__%20Viral%20Janta%20Karti%20Hai!%20Aap%20Nahi%20__.mp4",
     thumbnail: "/thumbnail/1.png",
     name: "founder of chtr social",
@@ -54,7 +54,7 @@ const UGC = [
   },
   {
     id: 4,
-    // video: "./assets/Mangalam/Mangalam Giant Cone Hook 1.mp4",
+    
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
     thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
     name: "sharktank brand",
@@ -134,7 +134,7 @@ function LandingPage() {
               </div>
             </div>
 
-            <div className="relative">
+            {/* <div className="relative">
               <div className="relative">
                 <div className="bg-[#f85a23]/20 absolute inset-0 rounded-xl transform rotate-3 transition-transform duration-300 hover:rotate-6"></div>
                 <div className="relative z-10 bg-[#f85a23]/10 rounded-xl overflow-hidden">
@@ -151,7 +151,7 @@ function LandingPage() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 

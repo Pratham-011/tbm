@@ -1,57 +1,98 @@
 [
-    {
-      "name": "Single ID Free Pizza",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4",
-      "type": "ugc",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/singleID.png"
-    },
-    {
-      "name": "User-Generated Content (UGC)",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20UGC.mp4",
-      "type": "ugc",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/UGC.png"
-    },
-    {
-      "name": "Kajal Water Splash (9x16)",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/2.%20Kajal%20Water%20splash(9X16).mp4 ",
-      "type": "influencer",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/10.png"
-    },
-    {
-      "name": "Vertical Video (9x16)",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/3.%20Vertical%209X16.mp4",
-      "type": "UGC",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/9.png"
-    },
-    {
-      "name": "Ashneer Grover Reel",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Ashneer%20Grover%20Reel.mp4",
-      "type": "influencer",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/thumbnails/Ashneer%20Grover%20Reel.jpg"
-    },
-    {
-      "name": "HOME Ad Film Video",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20HOME%20Ad%20film%20Video.mp4",
-      "type": "ad-films",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/thumbnails/Copy%20of%20HOME%20Ad%20film%20Video.jpg"
-    },
-    {
-      "name": "Cult Massager Ad (1440p)",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20cult_massager_ad%20(1440p).mp4",
-      "type": "ugc",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/thumbnails/Copy%20of%20cult_massager_ad%20(1440p).jpg"
-    },
-    {
-      "name": "DOT & KEY Product Video",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/DOT%20%26%20KEY%20PRODUCT.mp4",
-      "type": "ad-films",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/thumbnails/DOT%20&%20KEY%20PRODUCT.jpg"
-    },
-    {
-      "name": "Vinita Said That Reel",
-      "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
-      "type": "influencer",
-      "thumbnail": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/thumbnails/Vinita%20Said%20That%20Reel.jpg"
-    }
-  ]
-  
+  {
+    "name": "Cult Fit Massager",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20cult_massager_ad%20(1440p).mp4",
+    "type": "ad-films",
+    "thumbnail": "/thumbnail/Cultfit1.png"
+  },
+  {
+    "name": "Cult Fit Promo",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Cult%20Fit%20Promo.mp4",
+    "type": "ad-films",
+    "thumbnail": "/thumbnail/Cultfit2.png"
+  },
+  {
+    "name": "Estuary Ad",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20HOME%20Ad%20film%20Video.mp4",
+    "type": "ad-films",
+    "thumbnail": "/thumbnail/Estuary Ad.jpg"
+  },
+  {
+    "name": "Medifeet",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20Medifeet%20Vertical.mp4",
+    "type": "ad-films",
+    "thumbnail": "/thumbnail/Medifeet.png"
+  },
+  {
+    "name": "Fakeeh University",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Fakeeh%20University%20Hospital%20Dubai.mp4",
+    "type": "ad-films",
+    "thumbnail": "/thumbnail/Estuary Ad.jpg"
+  },
+  {
+    "name": "Vicks",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/VICKS02.mp4",
+    "type": "influencer",
+    "thumbnail": "/thumbnail/Vicks.jpg"
+  },
+  {
+    "name": "Loreal",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Sameera%20Loreal%20.mp4",
+    "type": "influencer",
+    "thumbnail": "/thumbnail/loreal.jpg"
+  },
+  {
+    "name": "Lakme",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Lakme%201.mp4",
+    "type": "influencer",
+    "thumbnail": "/thumbnail/Lakme.jpg"
+  },
+  {
+    "name": "DotnKey",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/DOT%20%26%20KEY%20PRODUCT.mp4",
+    "type": "influencer",
+    "thumbnail": "/thumbnail/DotnKey.png"
+  },
+  {
+    "name": "Schbang",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Pod%20Aditya%20Teaser.MP4",
+    "type": "podcast",
+    "thumbnail": "/thumbnail/schbang.png"
+  },
+  {
+    "name": "Chtr Social",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/SnapSave.io-Meet%20Darshil%20Shah%20from%20%40chtrsocial%20share%20the%20virality%20concept%20__%20Viral%20Janta%20Karti%20Hai!%20Aap%20Nahi%20__.mp4",
+    "type": "podcast",
+    "thumbnail": "/thumbnail/chtrsocial.png"
+  },
+  {
+    "name": "Bacca Bucci",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Ashneer%20Grover%20Reel.mp4",
+    "type": "podcast",
+    "thumbnail": "/thumbnail/baccabucci.png"
+  },
+  {
+    "name": "Bacca Bucci",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
+    "type": "podcast",
+    "thumbnail": "/thumbnail/baccabucci.png"
+  },
+  {
+    "name": "Estuary ",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/UGC%20Video.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Estuary.png"
+  },
+  {
+    "name": "Single ID free Snacks video ",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Single%20ID%20Free%20Snacks.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Single ID free Snacks video.png"
+  },
+  {
+    "name": "Single ID free pizza ",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Single ID free pizza.png"
+  }
+]
