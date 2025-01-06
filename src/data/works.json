@@ -27,7 +27,7 @@
     "name": "Fakeeh University",
     "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Fakeeh%20University%20Hospital%20Dubai.mp4",
     "type": "ad-films",
-    "thumbnail": "/thumbnail/Estuary Ad.jpg"
+    "thumbnail": "/thumbnail/Fakeeh.png"
   },
   {
     "name": "Vicks",
@@ -94,5 +94,59 @@
     "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4",
     "type": "ugc",
     "thumbnail": "/thumbnail/Single ID free pizza.png"
+  },
+  {
+    "name": "Estuary whiskey falling video",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20UGC.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Estuary whiskey falling video.png"
+  },
+  {
+    "name": "Estuary cash 1 lakh video",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Home%20UGC%20Video.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Estuary cash 1 lakh video.png"
+  },
+  {
+    "name": "My11 Circle",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Home%20Combo%20offer.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Home Combo offer.png"
+  },
+  {
+    "name": "My11 Circle",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20Fighting%20(1080X1920).mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/My11 Circle fighting.png"
+  },
+  {
+    "name": "Mangalam Giant Cone Hook",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Mangalam%20Giant%20Cone%20Hook%201.MP4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Mangalam Giant Cone Hook.png"
+  },
+  {
+    "name": "Mangalam Liquid Vaporaiser Hook",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Mangalam%20Liquid%20Vaporaiser%20Hook%201.MP4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Mangalam Liquid Vaporaiser Hook.png"
+  },
+  {
+    "name": "Perfora",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20Page%20Perfora%20UGC%20.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/Perfora.png"
+  },
+  {
+    "name": "P-Tal Brass Dosa Tawa Hook",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20P-Tal%20Brass%20Dosa%20Tawa%20Hook%202.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/P-Tal Brass Dosa Tawa Hook.png"
+  },
+  {
+    "name": "P-Tal Brass Patila Hook",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20P-Tal%20Brass%20Patila%20Hook%202%20.mp4",
+    "type": "ugc",
+    "thumbnail": "/thumbnail/P-Tal Brass Patila Hook.png"
   }
 ]
