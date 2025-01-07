@@ -260,7 +260,7 @@ export default function Home() {
           <span className="text-[#f85a23] ">difference</span>
           <br />
         </div>
-        <div className="w-full text-center text-xs lg:text-justify text-white/60 lg:text-lg font-normal tracking-wider">
+        <div className="w-full text-center text-lg lg:text-justify text-white/60 lg:text-lg font-normal tracking-wider">
           <span>
             We strategize and craft the{" "}
             <span className="text-white ">perfect ads</span> tailored to every

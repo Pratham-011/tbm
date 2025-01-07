@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules';
-import { Video as VideoIcon, LineChartIcon as ChartLine, Globe, ArrowRight  } from 'lucide-react';
+import { Video as VideoIcon, LineChartIcon as ChartLine, Globe, ArrowRight,Users  } from 'lucide-react';
 import Footer from "@/components/Footer";
 
 import BackgroundVideo from 'next-video/background-video';
@@ -76,9 +76,9 @@ const services = [
     icon: ChartLine
   },
   {
-    title: "WEBSITE BUILDING",
-    description: "Custom, responsive websites designed to showcase your brand and drive results.",
-    icon: Globe
+    title: "INFLUENCER",
+    description: "Leverage trusted voices to amplify your brand message through authentic and relatable influencer collaborations.",
+    icon: Users
   }
 ];
 
@@ -134,7 +134,7 @@ function LandingPage() {
               </div>
             </div>
 
-            {/* <div className="relative">
+            <div className="relative">
               <div className="relative">
                 <div className="bg-[#f85a23]/20 absolute inset-0 rounded-xl transform rotate-3 transition-transform duration-300 hover:rotate-6"></div>
                 <div className="relative z-10 bg-[#f85a23]/10 rounded-xl overflow-hidden">
@@ -151,7 +151,7 @@ function LandingPage() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </section>
 

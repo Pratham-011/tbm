@@ -43,8 +43,7 @@ function Footer() {
     <div className="flex gap-4">
   {/* <div className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Facebook /></div> */}
   <a href="https://www.instagram.com/truebridge.media/" target='_blank' t className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Instagram /></a>
-  <a href="https://www.linkedin.com/company/truebridgemedia/" target='_blank' className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><LinkedinIcon /></a>
-  <a href="https://www.instagram.com/truebridge.media/" target='_blank' className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><Youtube /></a>
+  <a href="https://www.linkedin.com/in/meet-dasani-58a369167/" target='_blank' className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#cfc9a3]"><LinkedinIcon /></a>
 </div>
 
 

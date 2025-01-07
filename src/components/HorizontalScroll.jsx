@@ -22,21 +22,21 @@ gsap.registerPlugin(ScrollTrigger)
 
 const contents = [
   {
-    "title": "TOP OF THE FUNNEL ADS",
-    "keyword": "Funnel Videos",
+    "title": "BRANDING PURPOSE",
+    "keyword": "DIGITAL AD FILMS",
     "desc": "Using these videos at the top of the funnel to grab attention and then retargeting the same audience with the bottom of the funnel UGC’s.",
     "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20HOME%20Ad%20film%20Video.mp4"
   },
   {
     "title": "In Association with",
     "keyword": "Vyshakh Sudhakaran",
-    "desc": "Right use of VFX to grab attention and to amplify the key value preposition of curing body stiffness with the gun massager.",
+    "desc": "In this Digital Ad for Cultfit there has been right use of VFX to grab attention and to amplify the key value preposition of curing body stiffness with the gun massager.",
     "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20cult_massager_ad%20(1440p).mp4"
   },
   {
     "title": "In Association with",
     "keyword": "The Sassy Insights",
-    "desc": "LA game show format allows to drive higher engagement and extended watch time. It builds better brand recall value in the long run.",
+    "desc": "A game show IP format for 1win allows to drive higher engagement and extended watch time. It builds better brand recall value in the long run.",
     "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/the%20sassy%20night.mp4"
   },
   {
@@ -90,6 +90,7 @@ const HorizontalScroll = () => {
             <section  className="container flex-shrink-0 mx-auto px-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between  pb-5 gap-5">
         <div className="w-full text-white text-center text-2xl lg:text-left lg:text-3xl  xl:text-4xl 2xl:text-5xl font-bold uppercase tracking-wider">
           <span>{content.title}</span>
+          <br />
           <span className="text-[#f85a23] ">{" "}{content.keyword}</span>
           <br />
         </div>
