@@ -39,7 +39,9 @@ export default function WorksSection() {
   );
 
   return (
-    <section className="py-20">
+    <main className="container " data-scroll-section>
+
+    <section data-scroll-section className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="w-full text-white text-center text-2xl lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider my-10">
           Our <span className="text-[#f85a23]">Works</span>
@@ -106,8 +108,10 @@ export default function WorksSection() {
         </div>
       </div>
 
-      <Footer/>
     </section>
+    <Footer/>
+
+    </main>
   );
 }
 
