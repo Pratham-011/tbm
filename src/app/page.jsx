@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import HorizontalScroll from "@/components/HorizontalScroll";
-
+import Video from 'next-video';
 import BackgroundVideo from "next-video/background-video";
 import {
   Dialog,
@@ -109,7 +109,7 @@ export default function Home() {
         className="mx-auto w-screen flex justify-center items-center "
       >
         <div className="container z-10 mx-auto px-5 w-full flex flex-col lg:flex-row items-center lg:items-end justify-between h-dvh pb-5">
-          <div className="flex-col lg:justify-start  h-full lg:h-auto  justify-end pb-10 lg:pb-0 lg:items-start inline-flex items-center">
+          <div className="flex-col lg:justify-start  h-full lg:h-auto  justify-end pb-10 lg:pb-0 lg:items-start inline-flex items-center gap-5">
             <div className="self-stretch text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
               <span>Where True </span>
               <span className="text-[#f85a23] ">Creativity </span>
@@ -153,50 +153,47 @@ export default function Home() {
             />
           </div> */}
           <div
-            className="h-screen w-screen  shrink-0 flex flex-col gap-10 justify-center items-center"
+            className="h-screen w-screen hidden md:block shrink-0 flex flex-col gap-10 justify-center items-center"
             // md:w-[50vw]
             data-scroll
             data-scroll-speed="0.2"
           >
-            {/* <img
-              src="/HeroImages/hero_2_3.png"
-              alt={"tbm showcase"}
-              className="hidden md:block"
-            /> */}
-            {/* <img
-        
-              src='/HeroImages/hero_2_1.png'
-              alt={"tbm showcase"}
-              className=""
-            /> */}
-            {/* <img
-              src="/HeroImages/hero_2_2.png"
-              alt={"tbm showcase"}
-              className="hidden md:block"
-            /> */}
+          
             <BackgroundVideo
               autoPlay
               quality={100}
               src="/hero.mp4?thumbnailTime=1"
-              className="absolute inset-0 w-full h-full object-cover"
+              className=" absolute inset-0 w-full h-full object-cover"
               loop
               muted
               playsInline
               crossOrigin
               preload
             />
+            
+         
+          </div>
 
-            {/* <img
-              src="/HeroImages/hero_2_3.png"
-              alt={"tbm showcase"}
-              className="hidden md:block"
+          <div
+            className="h-screen w-screen md:hidden shrink-0 flex flex-col gap-10 justify-center items-center"
+            // md:w-[50vw]
+            data-scroll
+            data-scroll-speed="0.2"
+          >
+          
+            <BackgroundVideo
+              autoPlay
+              quality={100}
+              src="/vertical.mp4?thumbnailTime=1"
+              className=" absolute inset-0 w-full h-full object-cover"
+              loop
+              muted
+              playsInline
+              crossOrigin
+              preload
             />
-
-            <img
-              src="/HeroImages/hero_2_1.png"
-              alt={"tbm showcase"}
-              className="hidden md:block"
-            /> */}
+            
+         
           </div>
           {/* <div
             className="h-screen w-[30vw]  shrink-0  flex-col gap-10 justify-center items-center hidden md:flex"
@@ -334,15 +331,18 @@ export default function Home() {
                 <div className="relative aspect-[9/16] overflow-hidden">
                   <Dialog>
                     <DialogTrigger>
-                      <BackgroundVideo
-                        autoPlay
+                      
+                      <video
+                        // autoPlay
                         src={slide.video}
                         className="absolute inset-0 w-full  object-cover"
-                        loop
-                        muted
-                        playsInline
+                        // loop
+                        // muted
+                        // playsInline
                         crossOrigin
                       />
+                      {/* <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" /> */}
+
                     </DialogTrigger>
                     <DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
                       <MediaThemeInstaplay

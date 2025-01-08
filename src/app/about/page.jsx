@@ -29,7 +29,7 @@ const UGC = [
     id: 1,
     // video: "./assets/Estuary/UGC Video.mp4",
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Ashneer%20Grover%20Reel.mp4",
-    thumbnail: "./assets/Estuary/UGC-Thumbnail.jpg",
+    thumbnail: "portrait/1.png",
     name: "sharktank brand",
     logo: "	logo/baccabucci.jpg",
     brand: "BaccaBucci",
@@ -38,7 +38,7 @@ const UGC = [
     id: 2,
     // video: "./assets/Perfora/HOME Page Perfora UGC .mp4",
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Pod%20Aditya%20Teaser.MP4",
-    thumbnail: "./assets/Perfora/2.png",
+    thumbnail: "portrait/2.png",
     name: "ncd schbang",
     logo: "logo/Schbang.jpg",
     brand: "Schbang",
@@ -47,7 +47,7 @@ const UGC = [
     id: 3,
     
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/SnapSave.io-Meet%20Darshil%20Shah%20from%20%40chtrsocial%20share%20the%20virality%20concept%20__%20Viral%20Janta%20Karti%20Hai!%20Aap%20Nahi%20__.mp4",
-    thumbnail: "/thumbnail/1.png",
+    thumbnail: "portrait/3.png",
     name: "founder of chtr social",
     logo: "logo/Chtr.png",
     brand: "Chtr Social",
@@ -56,7 +56,7 @@ const UGC = [
     id: 4,
     
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
-    thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
+    thumbnail: false,
     name: "sharktank brand",
     logo: "	logo/baccabucci.jpg",
     brand: "BaccaBucci",
@@ -93,6 +93,7 @@ const splitTestingData = [
   { 
     video: "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/2.%20Kajal%20Water%20splash(9X16).mp4", 
     title: "FEMALE INFLUENCER" 
+
   },
   { 
     video: "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/3.%20Vertical%209X16.mp4", 
@@ -203,15 +204,22 @@ function LandingPage() {
                 <div className="relative aspect-[9/16] overflow-hidden">
                 <Dialog>
                 <DialogTrigger>
-                  <BackgroundVideo
-                    autoPlay
-                    src={slide.video}
-                    className="absolute inset-0 w-full  object-cover"
-                    loop
-                    muted
-                    playsInline
-                    crossOrigin                 
-                  />
+                  {/* if thumbnail available */}
+                  
+                  <video
+  // autoPlay
+  src={slide.video}
+  {...(slide.thumbnail && { poster: slide.thumbnail })}
+  className="absolute inset-0 w-full object-cover"
+  loop
+  muted
+  playsInline
+  crossOrigin="anonymous"
+/>
+
+
+                  <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
+
 
 </DialogTrigger>
 <DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
@@ -299,19 +307,22 @@ function LandingPage() {
             <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-8">
               {splitTestingData.map((item, index) => (
                 <div key={index} className="flex flex-col items-center space-y-4">
-                  <div className=" w-full  flex justify-center items-center  overflow-hidden">
+                  <div className="relative w-full  flex justify-center items-center  overflow-hidden">
                   <Dialog>
                 <DialogTrigger>
-                  <BackgroundVideo
-                    autoPlay
+                  <video
+                    // autoPlay
+                    poster="portrait/Split Testing image.png"
                     src={item.video}
-                    className="absolute inset-0 w-full  object-cover"
+                    className="inset-0 w-full h-full  object-cover"
                     loop
                     muted
                     playsInline
                     crossOrigin                    
-
                   />
+
+                  <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
+
 
 </DialogTrigger>
 <DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
@@ -355,19 +366,21 @@ function LandingPage() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16" >
           <div  className="p-6 rounded-xl flex justify-center">
-            <div className="h-auto w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
+            <div className="h-auto relative w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
             <Dialog>
                 <DialogTrigger>
-                  <BackgroundVideo
-                    autoPlay
+                  <video
+                    // autoPlay
                     src="https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4"
-                    className="absolute inset-0 w-full  object-cover"
+                    className=" inset-0 w-full  object-cover"
                     loop
                     muted
                     playsInline
                     crossOrigin                    
 
                   />
+                  <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
+
 
 </DialogTrigger>
 <DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
