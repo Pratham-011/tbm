@@ -112,13 +112,15 @@ function LandingPage() {
   const [activeTab, setActiveTab] = useState('framework');
 
   return (
-      <main className="container mx-auto px-5" data-scroll-section>
+      <main className="container mx-auto px-5 " data-scroll-section>
 
  {/* About Section */}
- <section  data-scroll-section className="py-20 h-screen flex items-center justify-center">
+ <section data-scroll-section className="py-20">
+
+ <section   className=" h-screen flex items-center justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <h2 className="w-full text-[#f85a23] text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
+            <div className="space-y-8 ">
+              <h2 className="w-full text-[#f85a23]  text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
                 ABOUT
               </h2>
               <div className="space-y-6">
@@ -144,7 +146,7 @@ function LandingPage() {
                     className="w-full h-auto object-cover"
                   />
                 </div>
-                <div className="absolute bottom-4 right-4 z-20">
+                <div className="absolute bottom-6 left-9 z-20">
                   <div className="bg-[#f85a23] text-white px-3 py-2 lg:px-6 lg:py-4 rounded-lg shadow-lg backdrop-blur-sm bg-opacity-90">
                     <div className="text-xs lg:text-sm font-medium tracking-wider">FOUNDER</div>
                     <div className="text-sm lg:text-xl font-bold tracking-wide">Meet Dasani</div>
@@ -437,6 +439,7 @@ function LandingPage() {
         </section>
 
         {/* Footer */}
+                </section>
        <Footer/>
       </main>
   );

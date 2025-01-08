@@ -82,7 +82,7 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <main className="container" data-scroll-section>
+    <main className="" data-scroll-section>
 
   <section data-scroll-section className="py-20">
       <div className="container mx-auto px-4 ">
@@ -93,7 +93,7 @@ export default function RecipeReviewCard() {
     <Card sx={{ maxWidth: 345 }} >
       <CardHeader
         title="The Art of Data-Driven Creative Decisions: Performance Marketing and UGC Videos Simplified"
-        subheader="add published by True Bridge Media"
+        subheader=" published by True Bridge Media"
       />
       <CardMedia
         component="img"

@@ -118,16 +118,16 @@ export default function Home() {
               <span className="text-[#f85a23] ">Performance</span>
             </div>
             <div className="max-w-3xl text-center text-xs lg:text-left text-white/60 lg:text-lg font-normal tracking-wider">
-              <span>We’re not just a media agency, we’re </span>
-              <span className="text-white ">storytellers</span>
-              <span>, </span>
-              <span>strategists</span>
-              <span>, and </span>
-              <span className="text-white ">innovators</span>
-              <span>. Backed by </span>
-              <span className="text-white ">insights</span>
-              <span> and fueled by </span>
-              <span className="text-white ">passion</span>
+              <span>We are a </span>
+              <span className="text-white ">Niche Agency Focused</span>
+              <span> , </span>
+              <span>on One Thing :</span>
+              {/* <span>, and </span> */}
+              <span className="text-white "> Video Campaigns</span>
+              <span> That </span>
+              <span className="text-white ">Accelerate Performance</span>
+              {/* <span> and fueled by </span>
+              <span className="text-white ">passion</span> */}
               <span>.</span>
             </div>
           </div>

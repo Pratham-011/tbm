@@ -65,7 +65,7 @@ function Footer() {
     </div>
     {/* <!-- copyright section --> */}
     <div className="flex gap-4">
-    <span className="text-[#cfc9a3] text-xs font-medium uppercase">© 2024 True Bridge Media, ALL RIGHTS RESERVED</span>
+    <span className="text-[#cfc9a3] text-xs font-medium uppercase">© 2025 True Bridge Media, ALL RIGHTS RESERVED</span>
 
 </div>
 
