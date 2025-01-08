@@ -1,12 +1,18 @@
-'use client'
+"use client";
 
 import { useState } from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules';
-import { Video as VideoIcon, LineChartIcon as ChartLine, Globe, ArrowRight,Users  } from 'lucide-react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow, Autoplay, Navigation } from "swiper/modules";
+import {
+  Video as VideoIcon,
+  LineChartIcon as ChartLine,
+  Globe,
+  ArrowRight,
+  Users,
+} from "lucide-react";
 import Footer from "@/components/Footer";
 
-import BackgroundVideo from 'next-video/background-video';
+import BackgroundVideo from "next-video/background-video";
 import {
   Dialog,
   DialogContent,
@@ -14,13 +20,13 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import MediaThemeInstaplay from 'player.style/instaplay/react';
+} from "@/components/ui/dialog";
+import MediaThemeInstaplay from "player.style/instaplay/react";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
-import 'swiper/css';
+import "swiper/css";
 
 // Mock data (replace with actual data in a real application)
 
@@ -61,32 +67,48 @@ const UGC = [
     logo: "	logo/baccabucci.jpg",
     brand: "BaccaBucci",
   },
-  
-]
+];
 
 const services = [
   {
     title: "VIDEO PRODUCTION",
-    description: "High-quality, engaging video content tailored to your brand's needs.",
-    icon: VideoIcon
+    description:
+      "High-quality, engaging video content tailored to your brand's needs.",
+    icon: VideoIcon,
   },
   {
     title: "PAID MEDIA",
-    description: "Strategic paid advertising campaigns to boost your brand's visibility and conversions.",
-    icon: ChartLine
+    description:
+      "Strategic paid advertising campaigns to boost your brand's visibility and conversions.",
+    icon: ChartLine,
   },
   {
     title: "INFLUENCER",
-    description: "Leverage trusted voices to amplify your brand message through authentic and relatable influencer collaborations.",
-    icon: Users
-  }
+    description:
+      "Leverage trusted voices to amplify your brand message through authentic and relatable influencer collaborations.",
+    icon: Users,
+  },
 ];
 
 const strategyPoints = [
-  { text: "Strategizing persona testing for ", highlight: "Brand X" },
-  { text: "Creating ", highlight: "2 identical ads", continuation: " — one with an average-looking actor and one with a good-looking influencer." },
-  { text: "This ", highlight: "data-driven", continuation: " approach helps optimize Ads and ", highlight2: "maximize user acquisition" },
-  { text: "The goal is to refine messaging and ", highlight: "enhance ad performance", continuation: " for better results." },
+  { text: "Strategizing persona testing for ", highlight: "My11Circle" },
+  {
+    text: "Creating ",
+    highlight: "2 identical ads",
+    continuation:
+      " — one with an average-looking actor and one with a good-looking influencer.",
+  },
+  {
+    text: "This ",
+    highlight: "data-driven",
+    continuation: " approach helps optimize Ads and ",
+    highlight2: "maximize user acquisition",
+  },
+  {
+    text: "The goal is to refine messaging and ",
+    highlight: "enhance ad performance",
+    continuation: " for better results.",
+  },
 ];
 
 const splitTestingData = [
@@ -95,30 +117,32 @@ const splitTestingData = [
     title: "FEMALE INFLUENCER" 
 
   },
-  { 
-    video: "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/3.%20Vertical%209X16.mp4", 
-    title: "MALE ACTOR" 
-  }
+  {
+    video:
+      "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/3.%20Vertical%209X16.mp4",
+    title: "MALE ACTOR",
+  },
 ];
 
 const frameworkItems = [
   { letter: "H", description: "Hook: Grab attention fast." },
   { letter: "E", description: "Explain: Introduce the Value early." },
   { letter: "A", description: "Actor: Confident and relatable talent." },
-  { letter: "T", description: "Trends: Tap into current platform relevant trends." },
+  {
+    letter: "T",
+    description: "Trends: Tap into current platform relevant trends.",
+  },
   { letter: "C", description: "Call to Action: End with a strong CTA" },
 ];
 
 function LandingPage() {
-  const [activeTab, setActiveTab] = useState('framework');
+  const [activeTab, setActiveTab] = useState("framework");
 
   return (
-      <main className="container mx-auto px-5 " data-scroll-section>
-
- {/* About Section */}
- <section data-scroll-section className="py-20">
-
- <section   className=" h-screen flex items-center justify-center">
+    <main className="container mx-auto px-5 " data-scroll-section>
+      {/* About Section */}
+      <section data-scroll-section className="py-20">
+        <section className=" h-screen flex items-center justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 ">
               <h2 className="w-full text-[#f85a23]  text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
@@ -129,10 +153,18 @@ function LandingPage() {
                   Hi, I'm Meet Dasani
                 </h3>
                 <p className="text-white/60 text-base lg:text-lg leading-relaxed tracking-wide">
-                  I started this agency after noticing a significant shift in how people consume content—moving from{' '}
-                  <span className="text-white font-medium">static visuals</span> to{' '}
-                  <span className="text-white font-medium">videos</span>. Despite this change, many big brands weren't optimizing their ad spend with the right{' '}
-                  <span className="text-[#f85a23] font-medium">direct response video ads</span>. I saw an opportunity to bridge this gap by creating impactful, data-driven video campaigns that not only capture attention but also drive real results.
+                  I started this agency after noticing a significant shift in
+                  how people consume content—moving from{" "}
+                  <span className="text-white font-medium">static visuals</span>{" "}
+                  to <span className="text-white font-medium">videos</span>.
+                  Despite this change, many big brands weren't optimizing their
+                  ad spend with the right{" "}
+                  <span className="text-[#f85a23] font-medium">
+                    direct response video ads
+                  </span>
+                  . I saw an opportunity to bridge this gap by creating
+                  impactful, data-driven video campaigns that not only capture
+                  attention but also drive real results.
                 </p>
               </div>
             </div>
@@ -149,8 +181,12 @@ function LandingPage() {
                 </div>
                 <div className="absolute bottom-6 left-9 z-20">
                   <div className="bg-[#f85a23] text-white px-3 py-2 lg:px-6 lg:py-4 rounded-lg shadow-lg backdrop-blur-sm bg-opacity-90">
-                    <div className="text-xs lg:text-sm font-medium tracking-wider">FOUNDER</div>
-                    <div className="text-sm lg:text-xl font-bold tracking-wide">Meet Dasani</div>
+                    <div className="text-xs lg:text-sm font-medium tracking-wider">
+                      FOUNDER
+                    </div>
+                    <div className="text-sm lg:text-xl font-bold tracking-wide">
+                      Meet Dasani
+                    </div>
                   </div>
                 </div>
               </div>
@@ -158,24 +194,21 @@ function LandingPage() {
           </div>
         </section>
 
-
-
-
         {/* Conversation Section */}
-        <section  className="py-20">
+        <section className="py-20">
           <div className="text-left mb-10">
             <h2 className="w-full text-white text-center lg:w-4/5 text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider">
-              conversation with{' '}
-              <span className="text-[#f85a23]">D2C Founders</span> and{' '}
+              conversation with{" "}
+              <span className="text-[#f85a23]">D2C Founders</span> and{" "}
               <span className="text-[#f85a23]">marketers</span>
             </h2>
           </div>
 
           <Swiper
-            effect={'coverflow'}
+            effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={'auto'}
+            slidesPerView={"auto"}
             spaceBetween={30}
             loop={true}
             coverflowEffect={{
@@ -189,17 +222,17 @@ function LandingPage() {
             autoplay={{
               delay: 5000,
               disableOnInteraction: false,
-              pauseOnMouseEnter: true
+              pauseOnMouseEnter: true,
             }}
             modules={[EffectCoverflow, Autoplay, Navigation]}
             className="w-full"
             breakpoints={{
               320: { slidesPerView: 1, spaceBetween: 10 },
               640: { slidesPerView: 2, spaceBetween: 20 },
-              1024: { slidesPerView: 3, spaceBetween: 30 }
+              1024: { slidesPerView: 3, spaceBetween: 30 },
             }}
           >
-           {UGC.map((slide, index) => (
+            {UGC.map((slide, index) => (
               <SwiperSlide key={index} className="swiper-slide">
                 <div className="relative aspect-[9/16] overflow-hidden">
                 <Dialog>
@@ -257,9 +290,8 @@ function LandingPage() {
           </Swiper>
         </section>
 
-       
         {/* Believe Section */}
-        <section  className="py-20 h-screen flex items-center justify-center">
+        <section className="py-20 h-screen flex items-center justify-center">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
             <div className="w-full lg:w-1/2">
               <h2 className="w-full text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider ">
@@ -269,17 +301,25 @@ function LandingPage() {
             <div className="w-full lg:w-1/2">
               <p className="text-white/60 text-lg">
                 We believe that every Ad should have a purpose. At{" "}
-                <span className="text-white">True Bridge Media</span> that purpose is simple:
-                <span className="text-white"> To drive results.</span> 
-                <br /><br />
-                During this journey, we realized that it's a data-driven game of <span className="text-white">volume</span> and <span className="text-white">creative testing.</span> By producing multiple variations of ads, analyzing performance data, and identifying what works, we help brands find their <span className="text-white">winning creatives</span> and scale them effectively.
+                <span className="text-white">True Bridge Media</span> that
+                purpose is simple:
+                <span className="text-white"> To drive results.</span>
+                <br />
+                <br />
+                During this journey, we realized that it's a data-driven game of{" "}
+                <span className="text-white">volume</span> and{" "}
+                <span className="text-white">creative testing.</span> By
+                producing multiple variations of ads, analyzing performance
+                data, and identifying what works, we help brands find their{" "}
+                <span className="text-white">winning creatives</span> and scale
+                them effectively.
               </p>
             </div>
           </div>
         </section>
 
         {/* Split Testing Section */}
-        <section  data-scroll-section className="py-20">
+        <section data-scroll-section className="py-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-4">
               <h2 className="w-full text-white text-center text-2xl lg:text-left lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider mb-10">
@@ -293,10 +333,14 @@ function LandingPage() {
                   >
                     <span>
                       {point.text}
-                      <span className="text-white font-normal">{point.highlight}</span>
+                      <span className="text-white font-normal">
+                        {point.highlight}
+                      </span>
                       {point.continuation}
                       {point.highlight2 && (
-                        <span className="text-white font-normal">{point.highlight2}</span>
+                        <span className="text-white font-normal">
+                          {point.highlight2}
+                        </span>
                       )}
                     </span>
                   </li>
@@ -420,31 +464,35 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="mt-16">
-          <h3 className="text-3xl mb-8 font-bold text-center">Campaign Results</h3>
+            <div className="mt-16">
+              <h3 className="text-3xl mb-8 font-bold text-center">
+                Campaign Results
+              </h3>
               <div className="bg-gradient-to-r from-[#f85a23] to-[#1c2321] p-6 rounded-lg shadow-lg">
-                  <p className="text-white text-xl">
-                    Our client achieved a remarkable 55% reduction in cost per acquisition,
-                    significantly enhancing engagement and conversion rates. The campaign
-                    reached over 1 million users and generated a 300% ROI.
-                  </p>
-                </div>
-        </div>
-      </div>
-    </section>
-
-        
+                <p className="text-white text-xl">
+                  Single ID achieved a remarkable 55% reduction in cost per card
+                  link, significantly enhancing engagement and conversion rates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Services Section */}
-        <section  data-scroll-section className="py-20">
+        <section data-scroll-section className="py-20">
           <h2 className="w-full text-white text-center text-2xl lg:text-5xl  xl:text-6xl 2xl:text-7xl font-bold uppercase tracking-wider mb-10">
             Our <span className="text-[#f85a23]">Services</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="bg-[#222222] p-6 rounded-lg transition-all duration-300 hover:bg-[#181818] hover:shadow-lg">
+              <div
+                key={index}
+                className="bg-[#222222] p-6 rounded-lg transition-all duration-300 hover:bg-[#181818] hover:shadow-lg"
+              >
                 <service.icon className="text-[#f85a23] w-8 h-8 mb-4" />
-                <h3 className="text-white text-base font-bold mb-2">{service.title}</h3>
+                <h3 className="text-white text-base font-bold mb-2">
+                  {service.title}
+                </h3>
                 <p className="text-white/60 text-xs">{service.description}</p>
               </div>
             ))}
@@ -452,11 +500,10 @@ function LandingPage() {
         </section>
 
         {/* Footer */}
-                </section>
-       <Footer/>
-      </main>
+      </section>
+      <Footer />
+    </main>
   );
 }
 
 export default LandingPage;
-
