@@ -120,7 +120,6 @@ export default function Home() {
             <div className="max-w-3xl text-center text-xs lg:text-left text-white/60 lg:text-lg font-normal tracking-wider">
               <span>We are a </span>
               <span className="text-white ">Niche Agency Focused</span>
-              <span> , </span>
               <span>on One Thing :</span>
               {/* <span>, and </span> */}
               <span className="text-white "> Video Campaigns</span>
