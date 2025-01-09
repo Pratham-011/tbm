@@ -28,7 +28,7 @@ const UGC = [
     // video: "./assets/Estuary/UGC Video.mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/UGC%20Video.mp4",
-    thumbnail: "./assets/Estuary/UGC-Thumbnail.jpg",
+    thumbnail: "/thumbna",
     name: "HIGH END UGC",
     logo: "	/logo/Estuary.webp",
     brand: "ESTUARY",
@@ -58,7 +58,7 @@ const UGC = [
     // video: "./assets/Mangalam/Mangalam Giant Cone Hook 1.mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Mangalam%20Giant%20Cone%20Hook%201.MP4",
-    thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
+    thumbnail: "/thumbnail/Mangalam Giant Cone Hook.png",
     name: "PHONE SHOT UGC",
     logo: "logo/Mangalam1.webp",
     brand: "MANGALAM",
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="max-w-3xl text-center text-xs lg:text-left text-white/60 lg:text-lg font-normal tracking-wider">
               <span>We are a </span>
               <span className="text-white ">Niche Agency Focused</span>
-              <span>on One Thing :</span>
+              <span> on One Thing :</span>
               {/* <span>, and </span> */}
               <span className="text-white "> Video Campaigns</span>
               <span> That </span>
