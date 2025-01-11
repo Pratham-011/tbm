@@ -120,7 +120,7 @@ export default function Home() {
             <div className="max-w-3xl text-center text-xs lg:text-left text-white/60 lg:text-lg font-normal tracking-wider">
               <span>We are a </span>
               <span className="text-white ">Niche Agency Focused</span>
-              <span>on One Thing :</span>
+              <span> on One Thing :</span>
               {/* <span>, and </span> */}
               <span className="text-white "> Video Campaigns</span>
               <span> That </span>
@@ -152,7 +152,7 @@ export default function Home() {
             />
           </div> */}
           <div
-            className="h-screen w-screen hidden md:block shrink-0 flex flex-col gap-10 justify-center items-center"
+            className="h-screen w-screen hidden md:flex shrink-0  flex-col gap-10 justify-center items-center"
             // md:w-[50vw]
             data-scroll
             data-scroll-speed="0.2"

@@ -35,13 +35,22 @@ const UGC = [
     id: 1,
     // video: "./assets/Estuary/UGC Video.mp4",
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Ashneer%20Grover%20Reel.mp4",
-    thumbnail: "portrait/1.png",
+    thumbnail: "portrait/3.png",
     name: "sharktank brand",
     logo: "	logo/baccabucci.jpg",
     brand: "BaccaBucci",
   },
   {
     id: 2,
+    
+    video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
+    thumbnail: "portrait/3.png",
+    name: "sharktank brand",
+    logo: "	logo/baccabucci.jpg",
+    brand: "BaccaBucci",
+  },
+  {
+    id: 3,
     // video: "./assets/Perfora/HOME Page Perfora UGC .mp4",
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Pod%20Aditya%20Teaser.MP4",
     thumbnail: "portrait/2.png",
@@ -50,10 +59,10 @@ const UGC = [
     brand: "Schbang",
   },
   {
-    id: 3,
+    id: 4,
     
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/SnapSave.io-Meet%20Darshil%20Shah%20from%20%40chtrsocial%20share%20the%20virality%20concept%20__%20Viral%20Janta%20Karti%20Hai!%20Aap%20Nahi%20__.mp4",
-    thumbnail: "portrait/3.png",
+    thumbnail: "portrait/1.png",
     name: "founder of chtr social",
     logo: "logo/Chtr.png",
     brand: "Chtr Social",
