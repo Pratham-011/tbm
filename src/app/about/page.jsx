@@ -60,9 +60,8 @@ const UGC = [
   },
   {
     id: 4,
-    
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
-    thumbnail: false,
+    thumbnail: "portrait/4.png",
     name: "sharktank brand",
     logo: "	logo/baccabucci.jpg",
     brand: "BaccaBucci",
@@ -369,15 +368,13 @@ function LandingPage() {
 
 
 </DialogTrigger>
-<DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
+<DialogContent className="p-0 bg-transparent border-none h-dvh  z-[105]">
 <MediaThemeInstaplay
         style={{ "--media-accent-color": "#f85a23" }}
       >           <video         
                     src={item.video}
                     slot="media"
-                    className="absolute inset-0 w-full  object-cover"
-
-                    // className="h-[600px]"
+                    className="absolute inset-0 w-full  object-fit"
                     playsInline
                     preload="metadata"
                     crossOrigin
@@ -410,7 +407,7 @@ function LandingPage() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16" >
           <div  className="p-6 rounded-xl flex justify-center">
-            <div className="h-auto relative w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
+            <div className="relative w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
             <Dialog>
                 <DialogTrigger>
                   <video
@@ -420,20 +417,21 @@ function LandingPage() {
                     loop
                     muted
                     playsInline
-                    crossOrigin                    
+                    crossOrigin 
+                    poster="thumbnail/Single ID Free Pizza.png"                   
 
                   />
                   <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
 
 
 </DialogTrigger>
-<DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">
+<DialogContent className="p-0  bg-transparent border-none h-dvh z-[105]">
 <MediaThemeInstaplay
         style={{ "--media-accent-color": "#f85a23" }}
       >           <video         
                     src="https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4"
                     slot="media"
-                    className="absolute inset-0 w-full  object-cover"
+                    className="absolute inset-0 h-full  object-fit"
 
                     // className="h-[600px]"
                     playsInline

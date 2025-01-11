@@ -92,12 +92,30 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      {/* <Head>
-      <link rel="icon" type="image/png" href="http://localhost:3000/logo.png" />
+      <Head>
+      {/* <link rel="icon" type="image/png" href="http://localhost:3000/logo.png" />
       <link rel="icon" type="image/png" href="https://truebridgemedia.com/logo.png" />
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href="/favicon.ico" /> */}
+      
 
-      </Head> */}
+<title>True Bridge Media | UGC | Ad Films | Performance</title>
+<meta name="title" content="True Bridge Media | UGC | Ad Films | Performance" />
+<meta name="description" content="We strategize and craft the perfect ads tailored to every stage of the marketing funnel. Our approach is data-driven and backed by insight." />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="www.truebridgemedia.com" />
+<meta property="og:title" content="True Bridge Media | UGC | Ad Films | Performance" />
+<meta property="og:description" content="We strategize and craft the perfect ads tailored to every stage of the marketing funnel. Our approach is data-driven and backed by insight." />
+<meta property="og:image" content="https://www.truebridgemedia.com/banner.png" />
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="www.truebridgemedia.com" />
+<meta property="twitter:title" content="True Bridge Media | UGC | Ad Films | Performance" />
+<meta property="twitter:description" content="We strategize and craft the perfect ads tailored to every stage of the marketing funnel. Our approach is data-driven and backed by insight." />
+<meta property="twitter:image" content="https://www.truebridgemedia.com/banner.png" />
+
+
+      </Head>
       <body className={inter.className}>
       <Navigation/>
       {/* <Lenis root> */}

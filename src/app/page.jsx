@@ -28,7 +28,7 @@ const UGC = [
     // video: "./assets/Estuary/UGC Video.mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/UGC%20Video.mp4",
-    thumbnail: "./assets/Estuary/UGC-Thumbnail.jpg",
+    thumbnail: "thumbnail/Estuary.png",
     name: "HIGH END UGC",
     logo: "	/logo/Estuary.webp",
     brand: "ESTUARY",
@@ -38,7 +38,7 @@ const UGC = [
     // video: "./assets/Perfora/HOME Page Perfora UGC .mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20Page%20Perfora%20UGC%20.mp4",
-    thumbnail: "./assets/Perfora/2.png",
+    thumbnail: "thumbnail/Perfora.png",
     name: "PHONE SHOT UGC",
     logo: "logo/Perforalogo.png",
     brand: "PERFORA",
@@ -48,7 +48,7 @@ const UGC = [
     // video: "./assets/P-TAL/HOMEP-TalBrassPatilaHook2.mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20P-Tal%20Brass%20Patila%20Hook%202%20.mp4",
-    thumbnail: "./assets/P-TAL/UGC-Thumbnail.jpg",
+    thumbnail: "thumbnail/P-Tal Brass Dosa Tawa Hook.png",
     name: "CAMERA SHOT UGC",
     logo: "logo/P-tal.png",
     brand: "P-TAL",
@@ -58,7 +58,7 @@ const UGC = [
     // video: "./assets/Mangalam/Mangalam Giant Cone Hook 1.mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Mangalam%20Giant%20Cone%20Hook%201.MP4",
-    thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
+    thumbnail: "thumbnail/Mangalam Giant Cone Hook.png",
     name: "PHONE SHOT UGC",
     logo: "logo/Mangalam1.webp",
     brand: "MANGALAM",
@@ -68,7 +68,7 @@ const UGC = [
     // video: "./assets/My11Circle/HOME Fighting (1080X1920).mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/HOME%20Fighting%20(1080X1920).mp4",
-    thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
+    thumbnail: "thumbnail/My11 Circle fighting.png",
     name: "PHONE SHOT UGC",
     logo: "logo/My112.png",
     brand: "My11Circle",
@@ -78,9 +78,9 @@ const UGC = [
     // video: "./assets/My11Circle/Home Combo offer.mp4",
     video:
       "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Home%20Combo%20offer.mp4",
-    thumbnail: "./assets/Mangalam/UGC-Thumbnail.jpg",
+    thumbnail: "thumbnail/my11reward.png",
     name: "PHONE SHOT UGC",
-    logo: "logo/My112.png",
+    logo: "logo/Mangalam1.webp",
     brand: "MANGALAM",
   },
 ];
@@ -335,12 +335,11 @@ export default function Home() {
                         // autoPlay
                         src={slide.video}
                         className="absolute inset-0 w-full  object-cover"
-                        // loop
-                        // muted
-                        // playsInline
+                        poster={slide.thumbnail}
                         crossOrigin
                       />
-                      {/* <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" /> */}
+                      
+                      <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
 
                     </DialogTrigger>
                     <DialogContent className="p-0 bg-transparent border-none h-screen z-[105]">

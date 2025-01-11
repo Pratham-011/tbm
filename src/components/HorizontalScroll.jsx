@@ -104,8 +104,8 @@ const HorizontalScroll = () => {
             <section  className="container flex-grow mx-auto bg-red flex items-start justify-start relative px-4 lg:px-40">
                             <Dialog className="w-full h-full"  >
                 <DialogTrigger className="w-full h-full" >
-                  <video
-                    // autoPlay
+                  <BackgroundVideo
+                    autoPlay
                     src={content.videosrc}
                     className="absolute inset-0 h-full w-full object-contain"
                     loop
@@ -113,7 +113,7 @@ const HorizontalScroll = () => {
                     playsInline
                     crossOrigin                 
                   />
-                  <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
+                  {/* <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" /> */}
 
 
 </DialogTrigger>
