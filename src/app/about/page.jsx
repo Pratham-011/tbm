@@ -417,10 +417,11 @@ function LandingPage() {
             <div className="relative w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
             <Dialog>
                 <DialogTrigger>
+                  
                   <video
                     // autoPlay
                     src="https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4"
-                    className=" inset-0 w-full  object-cover"
+                    className=" inset-0 h-full  object-cover"
                     loop
                     muted
                     playsInline
