@@ -383,13 +383,11 @@ function LandingPage() {
       >           <video         
                     src={item.video}
                     slot="media"
-                    className="absolute inset-0 w-full  object-fit"
+                    className="absolute inset-0 h-full  object-fit"
                     playsInline
                     preload="metadata"
                     crossOrigin
                     // theme={Instaplay}
-                    
-
                   />
                   </MediaThemeInstaplay>
 
