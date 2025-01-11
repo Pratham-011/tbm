@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <Head>
+      <head>
       {/* <link rel="icon" type="image/png" href="http://localhost:3000/logo.png" />
       <link rel="icon" type="image/png" href="https://truebridgemedia.com/logo.png" />
       <link rel="shortcut icon" href="/favicon.ico" /> */}
@@ -115,7 +115,7 @@ export default function RootLayout({ children }) {
 <meta property="twitter:image" content="https://www.truebridgemedia.com/banner.png" />
 
 
-      </Head>
+      </head>
       <body className={inter.className}>
       <Navigation/>
       {/* <Lenis root> */}
