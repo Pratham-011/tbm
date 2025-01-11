@@ -425,7 +425,7 @@ function LandingPage() {
                     muted
                     playsInline
                     crossOrigin 
-                    poster="thumbnail/Single ID Free Pizza.png"                   
+                    poster="thumbnail/SingleIDfreepizza.png"                   
 
                   />
                   <img src="/play.png" className="h-12 absolute z-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="" />
