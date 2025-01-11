@@ -421,7 +421,7 @@ function LandingPage() {
                   <video
                     // autoPlay
                     src="https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/%20Single%20ID%20Free%20Pizza.mp4"
-                    className=" inset-0 h-full max-h-dvh object-cover"
+                    className=" inset-0 h-full max-h-dvh max-h-screen object-cover"
                     loop
                     muted
                     playsInline
