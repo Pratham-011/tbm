@@ -414,7 +414,7 @@ function LandingPage() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16" >
           <div  className="p-6 rounded-xl flex justify-center">
-            <div className="relative w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
+            <div className="relative max-h-dvh w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
             <Dialog>
                 <DialogTrigger>
                   
