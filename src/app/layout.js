@@ -106,13 +106,13 @@ export default function RootLayout({ children }) {
 <meta property="og:url" content="www.truebridgemedia.com" />
 <meta property="og:title" content="True Bridge Media | UGC | Ad Films | Performance" />
 <meta property="og:description" content="We strategize and craft the perfect ads tailored to every stage of the marketing funnel. Our approach is data-driven and backed by insight." />
-<meta property="og:image" content="https://www.truebridgemedia.com/banner.png" />
+<meta property="og:image" content="https://www.truebridgemedia.com/tbm.png" />
 
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="www.truebridgemedia.com" />
 <meta property="twitter:title" content="True Bridge Media | UGC | Ad Films | Performance" />
 <meta property="twitter:description" content="We strategize and craft the perfect ads tailored to every stage of the marketing funnel. Our approach is data-driven and backed by insight." />
-<meta property="twitter:image" content="https://www.truebridgemedia.com/banner.png" />
+<meta property="twitter:image" content="https://www.truebridgemedia.com/tbm.png" />
 
 
       </head>
