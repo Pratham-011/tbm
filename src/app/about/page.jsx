@@ -40,15 +40,15 @@ const UGC = [
     logo: "	logo/baccabucci.jpg",
     brand: "BaccaBucci",
   },
-  {
-    id: 2,
+  // {
+  //   id: 2,
     
-    video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
-    thumbnail: "portrait/3.png",
-    name: "sharktank brand",
-    logo: "	logo/baccabucci.jpg",
-    brand: "BaccaBucci",
-  },
+  //   video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
+  //   thumbnail: "portrait/3.png",
+  //   name: "sharktank brand",
+  //   logo: "	logo/baccabucci.jpg",
+  //   brand: "BaccaBucci",
+  // },
   {
     id: 3,
     // video: "./assets/Perfora/HOME Page Perfora UGC .mp4",
@@ -68,7 +68,7 @@ const UGC = [
     brand: "Chtr Social",
   },
   {
-    id: 4,
+    id: 5,
     video:"https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Vinita%20Said%20That%20Reel.mp4",
     thumbnail: "portrait/4.png",
     name: "sharktank brand",
@@ -414,7 +414,7 @@ function LandingPage() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16" >
           <div  className="p-6 rounded-xl flex justify-center">
-            <div className="relative max-h-dvh w-full max-w-md flex justify-center items-center rounded-md overflow-hidden bg-gray-800">
+            <div className="relative max-h-dvh w-full max-w-md flex justify-center items-center rounded-md overflow-hidden">
             <Dialog>
                 <DialogTrigger>
                   
