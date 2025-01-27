@@ -7,6 +7,12 @@
     "thumbnail": "/thumbnail/Estuary Ad.jpg"
   },
   {
+    "name": "Amrit hospital Ad",
+    "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Amrit%20Hospital%20TvC%201.mp4",
+    "type": "ad-films",
+    "thumbnail": "/thumbnail/Amrit hospital Ad.png"
+  },
+  {
     "name": "Medifeet",
     "url": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20Medifeet%20Vertical.mp4",
     "type": "ad-films",
