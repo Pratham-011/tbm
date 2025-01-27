@@ -27,17 +27,18 @@ const contents = [
     "desc": "Using these videos at the top of the funnel to grab attention and then retargeting the same audience with the bottom of the funnel UGC’s.",
     "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20HOME%20Ad%20film%20Video.mp4"
   },
-  {
-    "title": "In Association with",
-    "keyword": "Vyshakh Sudhakaran",
-    "desc": "In this Digital Ad for Cultfit there has been right use of VFX to grab attention and to amplify the key value preposition of curing body stiffness with the gun massager.",
-    "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Copy%20of%20cult_massager_ad%20(1440p).mp4"
-  },
+ 
   {
     "title": "In Association with",
     "keyword": "The Sassy Insights",
     "desc": "A game show IP format for 1win allows to drive higher engagement and extended watch time. It builds better brand recall value in the long run.",
     "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/the%20sassy%20night.mp4"
+  },
+  {
+    "title": "In Association with",
+    "keyword": "The Sassy Insights",
+    "desc": "This Ad film for Amrit Eye Care Hospital takes you on an emotional journey, showcasing how the smallest moments in life gain the deepest meaning when seen through clear eyes.",
+    "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/Amrit%20Hospital%20TvC%201.mp4"
   },
   {
     "title": "In Association with",
