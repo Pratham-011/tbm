@@ -31,7 +31,7 @@ const contents = [
   {
     "title": "In Association with",
     "keyword": "The Sassy Insights",
-    "desc": "A game show IP format for 1win allows to drive higher engagement and extended watch time. It builds better brand recall value in the long run.",
+    "desc": "A game show IP format for 1Win allows to drive higher engagement and extended watch time. It builds better brand recall value in the long run.",
     "videosrc": "https://pub-7ef9cd4a2b164f838c4e056cc6eb2f6d.r2.dev/the%20sassy%20night.mp4"
   },
   {
@@ -95,7 +95,7 @@ const HorizontalScroll = () => {
           <span className="text-[#f85a23] ">{" "}{content.keyword}</span>
           <br />
         </div>
-        <div className="w-full text-center text-xs lg:text-justify text-white/60 lg:text-lg font-normal tracking-wider">
+        <div className="w-full text-center text-md xl:text-justify text-white/60 lg:text-lg font-normal tracking-normal">
           {content.desc}
         </div>
 
