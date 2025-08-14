@@ -75,10 +75,10 @@ export default function ContactPage() {
                   <h2 className="text-xl text-white font-semibold lg:text-2xl tracking-wider">Mail</h2>
                   <span className="font-normal text-white/60 text-lg tracking-wider">hello@truebridgemedia.com</span>
                 </div>
-                <div>
+                {/* <div>
                   <h2 className="text-xl text-white font-semibold lg:text-2xl tracking-wider">Phone</h2>
                   <span className="font-normal text-white/60 text-lg tracking-wider">+91 9773457560</span>
-                </div>
+                </div> */}
               </div>
             </div>
 
