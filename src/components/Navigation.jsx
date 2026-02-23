@@ -45,7 +45,6 @@ const Navigation = () => {
   const menuLinksRight = [
     { path: "/work", label: "WORK" },
     { path: "/blog", label: "BLOG" },
-    { path: "/Privacy", label: "PRIVACY" }, // Added Privacy link
   ];
 
   const menuLinks = [
@@ -53,7 +52,6 @@ const Navigation = () => {
     { path: "/about", label: "ABOUT" },
     { path: "/work", label: "WORK" },
     { path: "/blog", label: "BLOG" },
-    { path: "/Privacy", label: "PRIVACY" }, // Added Privacy link
   ];
 
   return (
