@@ -32,12 +32,14 @@ function Footer() {
 <div className="flex flex-col lg:flex-row items-center justify-center  py-5">
   {/* <!-- Navigation Links Section --> */}
   <div className="w-full flex lg:justify-between gap-5  items-center flex-col lg:flex-row ">
-    <div className="flex gap-5">
+    {/* <div className="flex gap-5"> */}
+    <div className="flex flex-wrap justify-center lg:justify-start gap-x-6 gap-y-2 max-w-[260px] lg:max-w-none">
       <Link href="/" className="text-[#cfc9a3] text-xs font-medium uppercase">Home</Link>
       <Link href="/about" className="text-[#cfc9a3] text-xs font-medium uppercase">About</Link>
       <Link href="/work" className="text-[#cfc9a3] text-xs font-medium uppercase">Work</Link>
       <Link href="/blog" className="text-[#cfc9a3] text-xs font-medium uppercase">Blog</Link>
       <Link href="/contact" className="text-[#cfc9a3] text-xs font-medium uppercase">Contact</Link>
+      <Link href="/Privacy" className="text-[#cfc9a3] text-xs font-medium uppercase">Privacy</Link>
     </div>
     {/* <!-- Social Media Icons --> */}
     <div className="flex gap-4">

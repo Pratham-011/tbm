@@ -20,7 +20,9 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
     "gsap": "^3.12.5",
+    "hamo": "latest",
     "iconify": "^1.4.0",
+    "lenis": "latest",
     "locomotive-scroll": "^5.0.0-beta.21",
     "lucide-react": "^0.468.0",
     "next": "14.2.3",
@@ -33,7 +35,8 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.15",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tempus": "latest"
   },
   "devDependencies": {
     "postcss": "^8",
